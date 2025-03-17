@@ -28,7 +28,7 @@ public class Main {
         String departmentToFilter = "IT";
         System.out.println("Older employees in department: " + departmentToFilter);
 
-//       list.stream().filter(e -> e.getDept().getDeptName().equalsIgnoreCase(departmentToFilter))
+//       list.stream().filter(e -> e.getDept().getDeptName().equalsIgnoreCase("IT"))
 //                .sorted(Comparator.comparingInt(Employee::getEmpAge).reversed())
 //                .forEach(e -> {
 //                    System.out.println(e);
